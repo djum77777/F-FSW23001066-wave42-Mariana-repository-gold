@@ -201,3 +201,11 @@ let hitAngka=tampungAngka.map((item)=>
 console.log('data ganjil',tampungGan, '=', ganjil);
 console.log('data genap',tampungGen, '=' ,genap);
 
+//latihan merapikan tulisan ascending
+let tulisan = prompt('masukan kata :')
+let jadiArray=Array.from(tulisan); //merubah isi menjadi array
+console.log(jadiArray);
+let sortArray=jadiArray.sort();
+console.log('disort dr a-z',sortArray);
+
+
