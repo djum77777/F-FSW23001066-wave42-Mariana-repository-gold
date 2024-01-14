@@ -43,5 +43,3 @@ let hasilWaktu=`${tanggal} ${tampungBulan[bulan]} ${tahun}`;
 //$tampungBulan[bulan] krn let bulan itu sudah memanggil indeks bulan 11 secara sistem
 console.log (hasilWaktu);
 //hal sama jg berlaku kl mau ambil hari, jadi buat array tampung hari dl
-
-
