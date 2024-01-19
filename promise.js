@@ -37,7 +37,7 @@ async function getDataUsers()
     isLoading=false
     document.getElementById("isLoading").innerHTML=''
     users.map((item)=>{
-        document.getElementById("content").innerHTML += //+untuk tampilkan smua data
+        document.getElementById("content").innerHTML += //+ untuk tampilkan smua data
         `
         <ul>
         <li>Name :${item.name}</li>
