@@ -203,9 +203,19 @@ console.log('data genap',tampungGen, '=' ,genap);
 
 //latihan merapikan tulisan ascending
 let tulisan = prompt('masukan kata :')
-let jadiArray=Array.from(tulisan); //merubah isi menjadi array
+let jadiArray=Array.from(tulisan); //merubah input tulisan menjadi array
 console.log(jadiArray);
 let sortArray=jadiArray.sort();
 console.log('disort dr a-z',sortArray);
 
+//latihan array delete huruf a dan ganti dengan huruf e
 
+let contohNama =["mariana","day-day","djumi"];
+let sumber=prompt('ganti huruf apa?');
+let ganti=prompt('ganti dgn huruf apa?');
+//kl replace cm ganti 1 huruf
+//kl replaceAll ganti smua yg ketemu
+var newNama =contohNama.map(item=>item.replaceAll(sumber,ganti));
+console.log(newNama);
+newNama=contohNama.map(item=>item +" djum");
+console.log(newNama);

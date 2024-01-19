@@ -17,6 +17,12 @@ if ((nominalDiskon+nominalBelanja) >= 100000) {
     console.log ("free goodie bag");
 }
 
+//function arrow => tipe function yg dipersingkat
+makan=(isi)=>{return"nasi "+isi;}
+console.log(makan); //mengecek makan adalah function
+console.log(makan("goreng")); //memanggil function makan
 
+minum=(apa)=> "es " + apa;
+console.log (minum("kelapa"));
 
 
